@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Borel&family=Chela+One&family=Inter:wght@300&family=Lilita+One&family=Montserrat:ital@1&family=Pacifico&family=Roboto&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Borel&family=Chela+One&family=Inter:wght@300&family=Lilita+One&family=Lobster+Two:wght@700&family=Montserrat:ital@1&family=Pacifico&family=Roboto&display=swap');
+
+
+:root {
+  --Maincolour: #161B3C;
+  --accentColour: #FE6462;
+  --accentColour2: #FEF4DD;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--Maincolour);
+}
+
+
+header {
+  display: flex;
+  gap: 5%;
+}
+
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.dropdown {
+  display: block;
+}
+
+.show {
+  display: none;
+}
+
+.dp-icon {
+  width: 3rem;
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+
+.hr-line {
+  height: 10%;
+  width: 50%;
+  background-color: var(--accentColour2);
+}
+
+.container1 {
+  display: flex;
+  width: 80%;
+  gap: 10%;
+  padding-top: 20px;
+}
+
+
+h1 {
+  color: var(--accentColour2);
+  text-align: center;
+  font-size: 3rem;
+  font-family: Lobster two;
+}
+
+.profile {
+  width: 20%;
+  height: 20%;
+}
+
+p,
+li,
+a {
+  color: var(--accentColour2)
+}
+
+.icon1 {
+  width: 20%;
+}
+
+button {
+  border-radius: 81.5px;
+  background: var(--accentColour);
+  width: 100px;
+  height: 50px;
+  border: none;
+  box-shadow: 5px 5px 4px 0px rgba(249, 234, 234, 0.25);
+  color: var(--accentColour2);
+  font-family: Roboto;
+}
